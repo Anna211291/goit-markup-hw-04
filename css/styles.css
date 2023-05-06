@@ -71,6 +71,8 @@ button {
 }
 .header-section {
   border-bottom: 1px solid var(--color-cornflower);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .heder-container {
   display: flex;
@@ -163,7 +165,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/people-office\ 1.jpg);
+    url(../images/hero/people-office.jpg);
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -247,6 +249,7 @@ button {
 .team-section {
   background-color: var(--color-cloud);
   padding-top: 120px;
+  padding: 32px 0;
 }
 
 .card-set {
@@ -296,6 +299,9 @@ button {
 .customers-section {
   padding-top: 120px;
 }
+.customer-title {
+  line-height: 1.1;
+}
 .customers {
   display: flex;
   justify-content: center;
@@ -309,15 +315,17 @@ button {
   justify-content: center;
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
+  color: var(--color-light-slate);
 }
 
 .customers-icon {
-  fill: var(--color-light-slate);
+  fill: currentColor;
 }
 .customers-link:hover,
 .customers-link:focus {
   border: 1px solid var(--color-ocean);
   border-radius: 4px;
+  color: var(--color-ocean);
 }
 .customers-icon:hover,
 .customers-icon:focus {
@@ -422,17 +430,17 @@ button {
 .footer-container {
   display: flex;
   gap: 120px;
+  align-items: baseline;
 }
 .footer-text-social {
   font-weight: 500;
-  color: var(--color-cloud);
+  color: var(--color-white);
   width: 208px;
   margin-bottom: 16px;
 }
 .socials-footer {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 16px;
 }
 .social-link-footer {
@@ -443,6 +451,10 @@ button {
   justify-content: center;
   border-radius: 50%;
   background-color: var(--color-iris);
+}
+.footer-icon {
+  align-items: baseline;
+  gap: 120px;
 }
 .social-icon-footer {
   fill: var(--color-cloud);
