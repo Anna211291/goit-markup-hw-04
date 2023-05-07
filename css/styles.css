@@ -326,10 +326,7 @@ button {
   border-radius: 4px;
   color: var(--color-ocean);
 }
-.customers-icon:hover,
-.customers-icon:focus {
-  fill: var(--color-ocean);
-}
+
 /* /* Portfolio navigate styles */
 .buttons-group {
   display: flex;
@@ -380,7 +377,6 @@ button {
   background: var(--color-white);
   flex-basis: calc((100% - var(--indent) * (var(--items) -1)) / var(--items));
   width: 360px;
-  height: 420px;
 }
 .portfolio-card:hover,
 .portfolio-card:focus {
